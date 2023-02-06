@@ -1,0 +1,52 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "VCS/1.0.0": {
+        "dependencies": {
+          "Dagger": "0.4.0",
+          "VCSLibrary": "1.0.0"
+        },
+        "runtime": {
+          "VCS.dll": {}
+        }
+      },
+      "Dagger/0.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/Dagger.dll": {
+            "assemblyVersion": "0.4.0.0",
+            "fileVersion": "0.4.0.0"
+          }
+        }
+      },
+      "VCSLibrary/1.0.0": {
+        "runtime": {
+          "VCSLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VCS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dagger/0.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oPfmDh98jeP1mw7kDvaX6bjQb+2V9ms2dplYvR8Fd2OZ/pOu7KwPhrCW7e94GNWB1R/jL8oE248JAI5n3CDXQA==",
+      "path": "dagger/0.4.0",
+      "hashPath": "dagger.0.4.0.nupkg.sha512"
+    },
+    "VCSLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

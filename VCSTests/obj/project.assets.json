@@ -8,6 +8,15 @@
           "build/netstandard1.0/coverlet.collector.targets": {}
         }
       },
+      "Dagger/0.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Dagger.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dagger.dll": {}
+        }
+      },
       "Microsoft.CodeCoverage/17.3.2": {
         "type": "package",
         "compile": {
@@ -1808,6 +1817,30 @@
         "build": {
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "VCS/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Dagger": "0.4.0",
+          "VCSLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VCS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VCS.dll": {}
+        }
+      },
+      "VCSLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/VCSLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VCSLibrary.dll": {}
+        }
       }
     }
   },
@@ -1861,6 +1894,18 @@
         "coverlet-icon.png",
         "coverlet.collector.3.1.2.nupkg.sha512",
         "coverlet.collector.nuspec"
+      ]
+    },
+    "Dagger/0.4.0": {
+      "sha512": "oPfmDh98jeP1mw7kDvaX6bjQb+2V9ms2dplYvR8Fd2OZ/pOu7KwPhrCW7e94GNWB1R/jL8oE248JAI5n3CDXQA==",
+      "type": "package",
+      "path": "dagger/0.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dagger.0.4.0.nupkg.sha512",
+        "dagger.nuspec",
+        "lib/netstandard2.0/Dagger.dll"
       ]
     },
     "Microsoft.CodeCoverage/17.3.2": {
@@ -6103,11 +6148,23 @@
         "xunit.runner.visualstudio.2.4.5.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "VCS/1.0.0": {
+      "type": "project",
+      "path": "../VCS/VCS.csproj",
+      "msbuildProject": "../VCS/VCS.csproj"
+    },
+    "VCSLibrary/1.0.0": {
+      "type": "project",
+      "path": "../VCSLibrary/VCSLibrary.csproj",
+      "msbuildProject": "../VCSLibrary/VCSLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.NET.Test.Sdk >= 17.3.2",
+      "VCS >= 1.0.0",
+      "VCSLibrary >= 1.0.0",
       "coverlet.collector >= 3.1.2",
       "xunit >= 2.4.2",
       "xunit.runner.visualstudio >= 2.4.5"
@@ -6119,11 +6176,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "S:\\Programming\\Projects\\VCS\\VCSTests\\VCSTests.csproj",
+      "projectUniqueName": "s:\\Programming\\Projects\\VCS\\VCSTests\\VCSTests.csproj",
       "projectName": "VCSTests",
-      "projectPath": "S:\\Programming\\Projects\\VCS\\VCSTests\\VCSTests.csproj",
+      "projectPath": "s:\\Programming\\Projects\\VCS\\VCSTests\\VCSTests.csproj",
       "packagesPath": "C:\\Users\\DT\\.nuget\\packages\\",
-      "outputPath": "S:\\Programming\\Projects\\VCS\\VCSTests\\obj\\",
+      "outputPath": "s:\\Programming\\Projects\\VCS\\VCSTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DT\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -6137,7 +6194,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "s:\\Programming\\Projects\\VCS\\VCSLibrary\\VCSLibrary.csproj": {
+              "projectPath": "s:\\Programming\\Projects\\VCS\\VCSLibrary\\VCSLibrary.csproj"
+            },
+            "s:\\Programming\\Projects\\VCS\\VCS\\VCS.csproj": {
+              "projectPath": "s:\\Programming\\Projects\\VCS\\VCS\\VCS.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

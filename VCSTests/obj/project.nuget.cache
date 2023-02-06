@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "LHem0cbsnw3+k55PCoTu2U2ZS2Amm4Ulp75Hr6zzZc+iWWV7qQqI+pp2q2a6l6DMAjBSJX1wIUzRxEEYKykOeA==",
+  "dgSpecHash": "pRQLhQ0bzn6N5dazMkfbOQYjBPU9W/T5bWzbXYzLJzne4SXknKNYrQPchRIR9Iy/egHEnn39EuF95m8FVB8Svw==",
   "success": true,
   "projectFilePath": "s:\\Programming\\Projects\\VCS\\VCSTests\\VCSTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DT\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
+    "C:\\Users\\DT\\.nuget\\packages\\dagger\\0.4.0\\dagger.0.4.0.nupkg.sha512",
     "C:\\Users\\DT\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",
     "C:\\Users\\DT\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\DT\\.nuget\\packages\\microsoft.net.test.sdk\\17.3.2\\microsoft.net.test.sdk.17.3.2.nupkg.sha512",

@@ -97,3 +97,12 @@ s:\Programming\Projects\VCS\VCSTests\obj\Debug\net7.0\refint\VCSTests.dll
 s:\Programming\Projects\VCS\VCSTests\obj\Debug\net7.0\VCSTests.pdb
 s:\Programming\Projects\VCS\VCSTests\obj\Debug\net7.0\VCSTests.genruntimeconfig.cache
 s:\Programming\Projects\VCS\VCSTests\obj\Debug\net7.0\ref\VCSTests.dll
+S:\Programming\Projects\VCS\VCSTests\bin\Debug\net7.0\CoverletSourceRootsMapping
+S:\Programming\Projects\VCS\VCSTests\bin\Debug\net7.0\VCS.deps.json
+S:\Programming\Projects\VCS\VCSTests\bin\Debug\net7.0\VCS.runtimeconfig.json
+S:\Programming\Projects\VCS\VCSTests\bin\Debug\net7.0\VCS.exe
+S:\Programming\Projects\VCS\VCSTests\bin\Debug\net7.0\Dagger.dll
+S:\Programming\Projects\VCS\VCSTests\bin\Debug\net7.0\VCS.dll
+S:\Programming\Projects\VCS\VCSTests\bin\Debug\net7.0\VCSLibrary.dll
+S:\Programming\Projects\VCS\VCSTests\bin\Debug\net7.0\VCSLibrary.pdb
+S:\Programming\Projects\VCS\VCSTests\bin\Debug\net7.0\VCS.pdb

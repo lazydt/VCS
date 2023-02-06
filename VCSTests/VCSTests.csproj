@@ -23,6 +23,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\VCSLibrary\VCSLibrary.csproj" />
+    <ProjectReference Include="..\VCS\VCS.csproj" />
   </ItemGroup>
 
 </Project>

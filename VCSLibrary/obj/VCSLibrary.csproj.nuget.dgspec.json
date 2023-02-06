@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "S:\\Programming\\Projects\\VCS\\VCSLibrary\\VCSLibrary.csproj": {}
+    "s:\\Programming\\Projects\\VCS\\VCSLibrary\\VCSLibrary.csproj": {}
   },
   "projects": {
-    "S:\\Programming\\Projects\\VCS\\VCSLibrary\\VCSLibrary.csproj": {
+    "s:\\Programming\\Projects\\VCS\\VCSLibrary\\VCSLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "S:\\Programming\\Projects\\VCS\\VCSLibrary\\VCSLibrary.csproj",
+        "projectUniqueName": "s:\\Programming\\Projects\\VCS\\VCSLibrary\\VCSLibrary.csproj",
         "projectName": "VCSLibrary",
-        "projectPath": "S:\\Programming\\Projects\\VCS\\VCSLibrary\\VCSLibrary.csproj",
+        "projectPath": "s:\\Programming\\Projects\\VCS\\VCSLibrary\\VCSLibrary.csproj",
         "packagesPath": "C:\\Users\\DT\\.nuget\\packages\\",
-        "outputPath": "S:\\Programming\\Projects\\VCS\\VCSLibrary\\obj\\",
+        "outputPath": "s:\\Programming\\Projects\\VCS\\VCSLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DT\\AppData\\Roaming\\NuGet\\NuGet.Config"

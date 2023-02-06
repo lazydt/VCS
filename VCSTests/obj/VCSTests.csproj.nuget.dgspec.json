@@ -4,6 +4,59 @@
     "s:\\Programming\\Projects\\VCS\\VCSTests\\VCSTests.csproj": {}
   },
   "projects": {
+    "s:\\Programming\\Projects\\VCS\\VCSLibrary\\VCSLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "s:\\Programming\\Projects\\VCS\\VCSLibrary\\VCSLibrary.csproj",
+        "projectName": "VCSLibrary",
+        "projectPath": "s:\\Programming\\Projects\\VCS\\VCSLibrary\\VCSLibrary.csproj",
+        "packagesPath": "C:\\Users\\DT\\.nuget\\packages\\",
+        "outputPath": "s:\\Programming\\Projects\\VCS\\VCSLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DT\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "s:\\Programming\\Projects\\VCS\\VCSTests\\VCSTests.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -25,7 +78,14 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "s:\\Programming\\Projects\\VCS\\VCSLibrary\\VCSLibrary.csproj": {
+                "projectPath": "s:\\Programming\\Projects\\VCS\\VCSLibrary\\VCSLibrary.csproj"
+              },
+              "s:\\Programming\\Projects\\VCS\\VCS\\VCS.csproj": {
+                "projectPath": "s:\\Programming\\Projects\\VCS\\VCS\\VCS.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -57,6 +117,69 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "s:\\Programming\\Projects\\VCS\\VCS\\VCS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "s:\\Programming\\Projects\\VCS\\VCS\\VCS.csproj",
+        "projectName": "VCS",
+        "projectPath": "s:\\Programming\\Projects\\VCS\\VCS\\VCS.csproj",
+        "packagesPath": "C:\\Users\\DT\\.nuget\\packages\\",
+        "outputPath": "s:\\Programming\\Projects\\VCS\\VCS\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DT\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "s:\\Programming\\Projects\\VCS\\VCSLibrary\\VCSLibrary.csproj": {
+                "projectPath": "s:\\Programming\\Projects\\VCS\\VCSLibrary\\VCSLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Dagger": {
+              "target": "Package",
+              "version": "[0.4.0, )"
             }
           },
           "imports": [
