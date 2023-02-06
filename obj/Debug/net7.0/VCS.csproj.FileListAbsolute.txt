@@ -1,0 +1,17 @@
+S:\Programming\VCS\bin\Debug\net7.0\VCS.exe
+S:\Programming\VCS\bin\Debug\net7.0\VCS.deps.json
+S:\Programming\VCS\bin\Debug\net7.0\VCS.runtimeconfig.json
+S:\Programming\VCS\bin\Debug\net7.0\VCS.dll
+S:\Programming\VCS\bin\Debug\net7.0\VCS.pdb
+S:\Programming\VCS\obj\Debug\net7.0\VCS.csproj.AssemblyReference.cache
+S:\Programming\VCS\obj\Debug\net7.0\VCS.GeneratedMSBuildEditorConfig.editorconfig
+S:\Programming\VCS\obj\Debug\net7.0\VCS.AssemblyInfoInputs.cache
+S:\Programming\VCS\obj\Debug\net7.0\VCS.AssemblyInfo.cs
+S:\Programming\VCS\obj\Debug\net7.0\VCS.csproj.CoreCompileInputs.cache
+S:\Programming\VCS\obj\Debug\net7.0\VCS.dll
+S:\Programming\VCS\obj\Debug\net7.0\refint\VCS.dll
+S:\Programming\VCS\obj\Debug\net7.0\VCS.pdb
+S:\Programming\VCS\obj\Debug\net7.0\VCS.genruntimeconfig.cache
+S:\Programming\VCS\obj\Debug\net7.0\ref\VCS.dll
+S:\Programming\VCS\bin\Debug\net7.0\Dagger.dll
+S:\Programming\VCS\obj\Debug\net7.0\VCS.csproj.CopyComplete
