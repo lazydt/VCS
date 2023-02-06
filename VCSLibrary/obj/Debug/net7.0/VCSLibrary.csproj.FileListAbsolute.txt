@@ -1,0 +1,12 @@
+S:\Programming\Projects\VCS\VCSLibrary\bin\Debug\net7.0\VCSLibrary.deps.json
+S:\Programming\Projects\VCS\VCSLibrary\bin\Debug\net7.0\VCSLibrary.dll
+S:\Programming\Projects\VCS\VCSLibrary\bin\Debug\net7.0\VCSLibrary.pdb
+S:\Programming\Projects\VCS\VCSLibrary\obj\Debug\net7.0\VCSLibrary.csproj.AssemblyReference.cache
+S:\Programming\Projects\VCS\VCSLibrary\obj\Debug\net7.0\VCSLibrary.GeneratedMSBuildEditorConfig.editorconfig
+S:\Programming\Projects\VCS\VCSLibrary\obj\Debug\net7.0\VCSLibrary.AssemblyInfoInputs.cache
+S:\Programming\Projects\VCS\VCSLibrary\obj\Debug\net7.0\VCSLibrary.AssemblyInfo.cs
+S:\Programming\Projects\VCS\VCSLibrary\obj\Debug\net7.0\VCSLibrary.csproj.CoreCompileInputs.cache
+S:\Programming\Projects\VCS\VCSLibrary\obj\Debug\net7.0\VCSLibrary.dll
+S:\Programming\Projects\VCS\VCSLibrary\obj\Debug\net7.0\refint\VCSLibrary.dll
+S:\Programming\Projects\VCS\VCSLibrary\obj\Debug\net7.0\VCSLibrary.pdb
+S:\Programming\Projects\VCS\VCSLibrary\obj\Debug\net7.0\ref\VCSLibrary.dll
